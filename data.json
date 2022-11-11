@@ -1,0 +1,49 @@
+{
+  "employment": [
+    {
+      "timeLaps": "2022 - 2022",
+      "employer": "Office Depot AB",
+      "title": "Seller",
+      "description": "Exceptional service to customers. Picked up goods and received. Cleaned up and rebuilt the store a bit. aving a good knowledge of the products is important to me as I can confidently support the buyers in their decision."
+    },
+    {
+      "timeLaps": "2019 - 2020",
+      "employer": "SANHA GmbH & Co. KG. KG Filial Sweden",
+      "title": "Order Administrator/Sales Support",
+      "description": "Place orders in our own system. Send invoices to customers and suppliers.Loose picking lists in internal systems. Answered questions and resolved situations over the phone."
+    },
+    {
+      "timeLaps": "2016 - 2019",
+      "employer": "Office Depot AB",
+      "title": "Seller",
+      "description": "Started in the sales pool in consultation with the then regional manager, where the goal was to help different stores achieve goals and see potential for improvement, had regular meetings with Rm. Exceptional service to customers. Picked up goods and received. Cleaned up and rebuilt the store a bit. Having a good knowledge of the products is important to me as I can confidently support the buyers in their decision."
+    }
+  ],
+
+  "education": [
+    {
+      "timeLaps": "2022 - Ongoing",
+      "school": "Chas Academy",
+      "course": "Front-end developer mobil & web",
+      "description": "Place orders in our own system. Send invoices to customers and suppliers.Loose picking lists in internal systems. Answered questions and resolved situations over the phone."
+    },
+    {
+      "timeLaps": "2020 - 2022",
+      "school": "Komvux/Nti",
+      "course": "Scatterd courses",
+      "description": "The purpose of these courses was to broaden my knowledge in different areas, such as Swedish, English, mathematics, social studies. I now master programs like C#. Has in-depth knowledge in computer and network technology and has a deeper understanding of English."
+    },
+    {
+      "timeLaps": "2017",
+      "school": "Trade Unions",
+      "course": "BAM",
+      "description": "Main safety representative Office Depot AB"
+    },
+    {
+      "timeLaps": "2000 - 2003",
+      "school": "Stockholm's hotel and restaurant school",
+      "course": "waitress",
+      "description": "Completed a three-year training in hotel and restaurant, where the end result was waitressing"
+    }
+  ]
+}
