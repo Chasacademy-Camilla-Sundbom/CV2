@@ -14,7 +14,7 @@ async function createEducationElements() {
     wrapper.id = "employmentWrapper";
 
     let title = document.createElement("h2");
-    let subTitle = document.createElement("p");
+    let subTitle = document.createElement("h4");
     let description = document.createElement("p");
 
     title.innerHTML = element.school;
@@ -35,7 +35,7 @@ async function createCareerElements() {
     wrapper.id = "educationWrapper";
 
     let title = document.createElement("h2");
-    let subTitle = document.createElement("p");
+    let subTitle = document.createElement("h4");
     let description = document.createElement("p");
 
     title.innerHTML = element.employer;
