@@ -54,7 +54,9 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function () {
-  modal.style.display = "block";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
 };
 
 span.onclick = function () {
