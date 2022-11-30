@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,400;1,100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <ul class="navbar">
-      <li>
-        <a href="index.html" class="activ-page">Home</a>
-      </li>
-      <li>
-        <a href="about.html">About</a>
-      </li>
-      <li>
-        <a href="career.html">Career</a>
-      </li>
-      <li>
-        <a href="education.html">Education</a>
-      </li>
-      <li>
-        <a href="skills.html">Skills</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact</a>
-      </li>
-      <li>
-        <a href="portfolio.html">Portfolio</a>
-      </li>
-    </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,400;1,100&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <div class="wrapper">
-      <img src="porträtt.jpg" width="200" alt="camilla sundbom" />
-      <h2>Camilla Sundbom`s Curriculum vitae</h2>
-      <button id="myBtn">Click on me</button>
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>
-            Hi and welcome to my homepage, this is my second project in School so I
-            hope you will enjoy it. Please click on the following link and you will
-            find more information <a href="about.html">about</a> me. If you want to
-            get in touch with me, I recommend you to look in too this link, where you
-            will finde out how too get in <a href="contact.html">contact</a> whit me.
-            If you move on to the next link, you will finde out how my
-            <a href="career.html">career</a> has been. Maby you miss something? Maby
-            it is about my <a href="education.html">education</a>? klick on the link
-            to find out how my studies has been and if you want to know what I have
-            been working on, please check this link
-            <a href="portfolio.html">portfolio</a>. In the end I do have more.
-            <a href="skills.html">skills</a>. So click the link and find out if I
-            have more than English in my language.
-          </p>
-        </div>
+<body>
+  <ul class="navbar">
+    <li>
+      <a href="index.html" class="activ-page">Home</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+    <li>
+      <a href="career.html">Career</a>
+    </li>
+    <li>
+      <a href="education.html">Education</a>
+    </li>
+    <li>
+      <a href="skills.html">Skills</a>
+    </li>
+    <li>
+      <a href="contact.html">Contact</a>
+    </li>
+    <li>
+      <a href="portfolio.html">Portfolio</a>
+    </li>
+  </ul>
+
+  <div class="wrapper">
+    <img src="porträtt.jpg" width="200" alt="camilla sundbom" />
+    <h2>Camilla Sundbom`s Curriculum vitae</h2>
+    <button id="myBtn" onclick="toggleModal()">Click on me</button>
+    <div id="myModal" class="modal hide">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+          Hi and welcome to my homepage, this is my second project in School so I
+          hope you will enjoy it. Please click on the following link and you will
+          find more information <a href="about.html">about</a> me. If you want to
+          get in touch with me, I recommend you to look in too this link, where you
+          will finde out how too get in <a href="contact.html">contact</a> whit me.
+          If you move on to the next link, you will finde out how my
+          <a href="career.html">career</a> has been. Maby you miss something? Maby
+          it is about my <a href="education.html">education</a>? klick on the link
+          to find out how my studies has been and if you want to know what I have
+          been working on, please check this link
+          <a href="portfolio.html">portfolio</a>. In the end I do have more.
+          <a href="skills.html">skills</a>. So click the link and find out if I
+          have more than English in my language.
+        </p>
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+</body>
+<script src="script.js" defer></script>
+
 </html>
